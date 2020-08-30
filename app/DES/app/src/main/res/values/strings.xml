@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Espace Etudiant</string>
+    <string name="note">NB: (\'*\') signifie que la note de l\'etudiant n\'est pas encore saisie.</string>
+    <string name="cour">NB:*Bleu pour les cours.</string>
+    <string name="tdtp">NB:*Jaun pour les TDs est les TPs.</string>
+    <!-- Strings related to login -->
+    <string name="prompt_matricule">MATRICULE</string>
+    <string name="prompt_password">MOT DE PASSE</string>
+    <string name="action_sign_in">CONNECTER</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">Ce Mot De Pass est tres court</string>
+    <string name="error_incorrect_password">Ce password est incorrect</string>
+    <string name="error_field_required">Ce champ est necessaire</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

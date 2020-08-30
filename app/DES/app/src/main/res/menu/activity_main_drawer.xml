@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_accueil"
+            android:title="Accueil" />
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile" />
+
+        <item android:title="Planning">
+            <menu>
+                <item
+                    android:id="@+id/nav_cours"
+                    android:title="Cours" />
+                <item
+                    android:id="@+id/nav_examen"
+                    android:title="Examen" />
+            </menu>
+        </item>
+
+
+    <item android:title="Note">
+        <menu>
+            <item
+                android:id="@+id/nav_consultation"
+                android:title="Consultation" />
+            <item
+                android:id="@+id/nav_deliberation"
+                android:title="Deliberation" />
+        </menu>
+    </item>
+
+        <item android:title="Contact">
+            <menu>
+                <item
+                    android:id="@+id/nav_recours"
+                    android:title="Recours" />
+                <item
+                    android:id="@+id/nav_change"
+                    android:title="Changement de Groupe" />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/nav_dec"
+            android:title="Déconection"/>
+
+    </group>
+</menu>

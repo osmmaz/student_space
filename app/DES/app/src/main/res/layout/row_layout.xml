@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="190dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:text="Matricule :"
+            android:textColor="#fa02ff"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_toRightOf="@+id/tx_mat"
+            android:text="Nom :"
+            android:textColor="#fa02ff"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/tx_name"
+            android:layout_gravity="center_horizontal"
+            android:text="PreNom :"
+            android:textColor="#fa02ff"
+            android:textAppearance="?android:textAppearanceLarge"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/tx_name"
+            android:layout_gravity="center_horizontal"
+            android:text="Email :"
+            android:textColor="#fa02ff"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="190dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tx_mat"
+        android:textColor="#20cef5"
+        android:layout_alignParentLeft="true"
+        android:text="Matricule"
+
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/tx_name"
+            android:textColor="#20cef5"
+            android:layout_toRightOf="@+id/tx_mat"
+            android:text="Nom"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="#20cef5"
+        android:id="@+id/tx_prename"
+        android:layout_toRightOf="@+id/tx_name"
+        android:text="PreNom"
+
+        android:textAppearance="?android:textAppearanceLarge"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/tx_email"
+            android:textColor="#20cef5"
+            android:layout_toRightOf="@+id/tx_name"
+            android:text="Email"
+
+            android:textAppearance="?android:textAppearanceLarge"/>
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

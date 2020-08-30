@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_group"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@android:color/white"
+    tools:context="com.example.oussama.des.group">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="GROUPE :"
+                android:layout_width="63dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/textView"
+                android:textColor="@android:color/black"/>
+
+            <Spinner
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:id="@+id/spinner" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:hint="Pourquoi tu veux changer ton Group? "
+                android:id="@+id/text_ch_group"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                />
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center">
+        <Button
+            android:text="Valider"
+            android:onClick="valider"
+            android:background="#20cef5"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="29dp"
+            android:id="@+id/valider" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent" />
+        <Button
+            android:text="Annuler"
+            android:onClick="annuler"
+            android:background="#20cef5"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="29dp"
+            android:id="@+id/anul"
+            />
+</LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

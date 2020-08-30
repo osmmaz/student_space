@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_display_mat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@android:color/white"
+    tools:context="com.example.oussama.des.DisplayMat">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:text="Matier"
+            android:background="@drawable/bord"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:text="CC"
+            android:background="@drawable/bord"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:text="EFS"
+            android:background="@drawable/bord"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:text="RFS"
+            android:background="@drawable/bord"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="72dp"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:text="MOY"
+            android:background="@drawable/bord"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview"
+        android:layout_gravity="center_horizontal"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/note"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@android:color/black"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom"
+            android:gravity="center">
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/home"
+                android:onClick="home"
+                android:id="@+id/home"
+
+                />
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="50dp" />
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/ref"
+                android:onClick="ref"
+                android:id="@+id/ref"
+
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
